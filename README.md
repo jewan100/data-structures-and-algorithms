@@ -3,4 +3,4 @@
 ### DataStructure
 - ┣ __List__
 - [x] ┃ ┣ Array List  
-- [ ] ┃  ┗ Linked List
+- [x] ┃ ┗ Linked List
