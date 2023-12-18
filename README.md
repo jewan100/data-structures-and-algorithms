@@ -9,5 +9,10 @@
 - ┠ __Hash__
 - [ ] ┃&nbsp;┣ Hash Map
 - [ ] ┃&nbsp;┗ Hash Set
-- [x] ┠ Stack
-- [x] ┗ Queue
+- [x] ┠ __Stack__
+- [x] ┠ __Queue__
+- [ ] ┃&nbsp;┣ Priority Queue
+- [ ] ┃&nbsp;┣ Deque
+- [ ] ┃&nbsp;┗ Circular Queue
+- [ ] ┠ __Tree__
+- [ ] ┗ __Graph__
