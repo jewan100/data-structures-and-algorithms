@@ -15,4 +15,5 @@
 - [ ] ┃&nbsp;┣ Deque
 - [ ] ┃&nbsp;┗ Circular Queue
 - [ ] ┠ __Tree__
+- [ ] ┃&nbsp;┗ Binary Search Tree
 - [ ] ┗ __Graph__
