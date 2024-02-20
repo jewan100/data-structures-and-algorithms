@@ -8,17 +8,17 @@
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Doubly Linked List
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Circular Linked List
 - ┠ __Hash__
-- [ ] ┃&nbsp;┣ Hash Map
-- [ ] ┃&nbsp;┗ Hash Set
+- [x] ┃&nbsp;┣ Hash Map
+- [x] ┃&nbsp;┗ Hash Set
 - [x] ┠ __Stack__
 - [x] ┠ __Queue__
-- [ ] ┃&nbsp;┣ Priority Queue
-- [ ] ┃&nbsp;┣ Deque
+- [x] ┃&nbsp;┣ Priority Queue
+- [x] ┃&nbsp;┣ Deque
 - [ ] ┃&nbsp;┗ Circular Queue
-- [ ] ┠ __Tree__
+- ┠ __Tree__
 - [ ] ┃&nbsp;┣ Binary Tree
 - [ ] ┃&nbsp;┣ Binary Search Tree
 - [ ] ┃&nbsp;┣ Complete Binary tree
 - [ ] ┃&nbsp;┗ Full Binary tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary tree
-- [ ] ┗ __Graph__
+- ┗ __Graph__
