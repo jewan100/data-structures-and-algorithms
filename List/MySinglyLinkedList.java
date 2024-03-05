@@ -117,7 +117,7 @@ public class MySinglyLinkedList {
         return sb.toString();
     }
     public static void main(String[] args) {
-        MyLinkedList numbers = new MyLinkedList();
+        MySinglyLinkedList numbers = new MySinglyLinkedList();
         numbers.addLast(10);                    // [10]
         numbers.addLast(20);                    // [10,20]
         numbers.addLast(30);                    // [10,20,30]
