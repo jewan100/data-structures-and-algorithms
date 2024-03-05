@@ -22,3 +22,4 @@
 - [ ] ┃&nbsp;┗ Full Binary tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary tree
 - ┗ __Graph__
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ Union Find
