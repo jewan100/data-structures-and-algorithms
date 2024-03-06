@@ -23,4 +23,6 @@
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary tree
 - ┗ __Graph__
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Union Find
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ Union By Rank
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Union By Size
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ Kruskal Algorithm
