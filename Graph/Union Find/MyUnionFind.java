@@ -1,25 +1,31 @@
 public class MyUnionFind {
     private int[] parent;
-    private int[] rank;
 
+    // 생성자 선언
     public MyUnionFind(int size) {
-        // Union By Rank and Path Compression
         parent = new int[size];
-        rank = new int[size];
 
         // 초기화 : 각 원소가 자신이 속한 집합의 대표를 자신으로 설정
         for (int i = 0; i < size; i++) {
             parent[i] = i;
-            rank[i] = 0;
         }
     }
 
     // Find연산 : 원소가 속한 집합의 대표를 찾는 연산
     public int find(int x) {
+        // 자기 자신이 대표인지 확인
         if (parent[x] != x) {
-            // 경로 압축(Path Compression)을 통한 최적화, 재귀호출
+            // 대표가 아니라면 해당 부모로 재귀호출하여 대표를 찾음.
+
+            // 이 과정에서 경로 압축(Path Comperssion)하지 않고 대표를 찾는다면
+            // ・Time Complexity(worst case) : O(n) 
+            // 경로 압축(Path Comperssion)을 하여 트리의 높이를 압축하며 대표를 찾는다면
+            // ・Time Complexity(worst case) : O(log n)
+
+            // 경로 압축(Path Comperssion)
             parent[x] = find(parent[x]);
         }
+        // 자신이 대표였다면 자신을 반환
         return parent[x];
     }
 
@@ -28,19 +34,8 @@ public class MyUnionFind {
         int rootX = find(x); // 원소 x의 대표
         int rootY = find(y); // 원소 y의 대표
 
-        // 두 집합의 대표가 같으면 이미 같은 집합
-        if (rootX != rootY) {
-            // 랭크가 작은 쪽을 더 큰 쪽에 붙임
-            if (rank[rootX] < rank[rootY]) {
-                parent[rootX] = rootY;
-            } else if (rank[rootX] > rank[rootY]) {
-                parent[rootY] = rootX;
-            } else {
-                // 양쪽 랭크가 같은 경우에는 반대쪽을 랭크를 증가
-                parent[rootY] = rootX;
-                rank[rootX]++;
-            }
-        }
+        // 원소 x의 대표를 원소 y의 대표로 바꾸어 두 서로소 집합을 하나의 집합으로 합침
+        parent[rootX] = rootY;
     }
 
     public static void main(String[] args) {
@@ -48,15 +43,15 @@ public class MyUnionFind {
         MyUnionFind myUnionFind = new MyUnionFind(11); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
         // Find -> Union
-        myUnionFind.union(0, 1); // [0, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        myUnionFind.union(1, 2); // [0, 0, 0, 3, 4, 5, 6, 7, 8, 9, 10]
-        myUnionFind.union(2, 3); // [0, 0, 0, 0, 4, 5, 6, 7, 8, 9, 10]
-        myUnionFind.union(3, 4); // [0, 0, 0, 0, 0, 5, 6, 7, 8, 9, 10]
-        myUnionFind.union(4, 5); // [0, 0, 0, 0, 0, 0, 6, 7, 8, 9, 10]
-        myUnionFind.union(6, 7); // [0, 0, 0, 0, 0, 0, 6, 6, 8, 9, 10]
-        myUnionFind.union(7, 8); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 9, 10]
-        myUnionFind.union(8, 9); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 10]
-        myUnionFind.union(9, 10); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 6]
+        myUnionFind.union(0, 1); // [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        myUnionFind.union(1, 2); // [1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        myUnionFind.union(2, 3); // [1, 2, 3, 3, 4, 5, 6, 7, 8, 9, 10]
+        myUnionFind.union(3, 4); // [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10]
+        myUnionFind.union(4, 5); // [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10]
+        myUnionFind.union(6, 7); // [1, 2, 3, 4, 5, 5, 7, 7, 8, 9, 10]
+        myUnionFind.union(7, 8); // [1, 2, 3, 4, 5, 5, 7, 8, 8, 9, 10]
+        myUnionFind.union(8, 9); // [1, 2, 3, 4, 5, 5, 7, 8, 9, 9, 10]
+        myUnionFind.union(9, 10); // [[1, 2, 3, 4, 5, 5, 7, 8, 9, 10, 10]
         
         // 1과 5가 같은 집합인지 확인
         System.out.println(myUnionFind.find(1) == myUnionFind.find(5)); // true
