@@ -1,8 +1,9 @@
 public class MyUnionFind {
     private int[] parent;
-    private int[] rank; // 랭크를 사용해서 경로 압축
+    private int[] rank;
 
     public MyUnionFind(int size) {
+        // Union By Rank and Path Compression
         parent = new int[size];
         rank = new int[size];
 
