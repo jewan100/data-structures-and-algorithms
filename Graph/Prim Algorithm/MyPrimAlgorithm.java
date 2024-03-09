@@ -24,13 +24,6 @@ public class MyPrimAlgorithm {
         // 해당 노드가 MST에 속하는지 여부를 나타내는 배열
         boolean[] inMST = new boolean[vertices];
 
-        // 각 노드의 키(간선 중 최소 가중치)를 저장하는 배열
-        int[] key = new int[vertices];
-
-        // 초기화
-        Arrays.fill(key, Integer.MAX_VALUE);
-        key[0] = 0;
-
         // 우선순위 큐를 이용해서 Prim Algorithm 구현
         PriorityQueue<Edge> priorityQueue = new PriorityQueue<>();
         priorityQueue.add(new Edge(0, 0));
@@ -51,7 +44,6 @@ public class MyPrimAlgorithm {
 
                 // 방문, 최소 가중치 체크
                 if (!inMST[v] && weight < key[v]) {
-                    key[v] = weight; // 가중치 업데이트
                     priorityQueue.add(new Edge(v, key[v]));
                 }
             }
