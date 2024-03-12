@@ -23,7 +23,7 @@
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary tree
 - ┗ __Graph__
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ DFS(Deep-First Search)
-- [ ] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ DFS Using Stack
+- [X] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ DFS Using Stack
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ DFS Using Permutation
 - [ ] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Union Find
