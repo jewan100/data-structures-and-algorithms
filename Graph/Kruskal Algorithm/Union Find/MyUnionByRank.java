@@ -51,15 +51,15 @@ public class MyUnionByRank {
         MyUnionByRank myUnionFind = new MyUnionByRank(11); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
         // Find -> Union
-        myUnionFind.union(0, 1); // [0, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        myUnionFind.union(1, 2); // [0, 0, 0, 3, 4, 5, 6, 7, 8, 9, 10]
-        myUnionFind.union(2, 3); // [0, 0, 0, 0, 4, 5, 6, 7, 8, 9, 10]
-        myUnionFind.union(3, 4); // [0, 0, 0, 0, 0, 5, 6, 7, 8, 9, 10]
-        myUnionFind.union(4, 5); // [0, 0, 0, 0, 0, 0, 6, 7, 8, 9, 10]
-        myUnionFind.union(6, 7); // [0, 0, 0, 0, 0, 0, 6, 6, 8, 9, 10]
-        myUnionFind.union(7, 8); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 9, 10]
-        myUnionFind.union(8, 9); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 10]
-        myUnionFind.union(9, 10); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 6]
+        myUnionFind.unionByRank(0, 1); // [0, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        myUnionFind.unionByRank(1, 2); // [0, 0, 0, 3, 4, 5, 6, 7, 8, 9, 10]
+        myUnionFind.unionByRank(2, 3); // [0, 0, 0, 0, 4, 5, 6, 7, 8, 9, 10]
+        myUnionFind.unionByRank(3, 4); // [0, 0, 0, 0, 0, 5, 6, 7, 8, 9, 10]
+        myUnionFind.unionByRank(4, 5); // [0, 0, 0, 0, 0, 0, 6, 7, 8, 9, 10]
+        myUnionFind.unionByRank(6, 7); // [0, 0, 0, 0, 0, 0, 6, 6, 8, 9, 10]
+        myUnionFind.unionByRank(7, 8); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 9, 10]
+        myUnionFind.unionByRank(8, 9); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 10]
+        myUnionFind.unionByRank(9, 10); // [0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 6]
         
         // 1과 5가 같은 집합인지 확인
         System.out.println(myUnionFind.find(1) == myUnionFind.find(5)); // true

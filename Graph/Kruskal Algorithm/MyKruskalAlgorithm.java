@@ -1,3 +1,7 @@
+import java.util.List;
+import java.util.ArrayList;
+import java.util.PriorityQueue;
+
 class Edge implements Comparable<Edge> {
     int src; // 출발 노드
     int dest; // 도착 노드
@@ -15,13 +19,11 @@ class Edge implements Comparable<Edge> {
     }
 }
 
-
-public class MyKruskalAlgorithm {
-
+class KruskalAlgorithm {
     private int vertices;
     private List<Edge> edges;
 
-    public MyKruskalAlgorithm(int vertices) {
+    public KruskalAlgorithm(int vertices) {
         this.vertices = vertices;
         this.edges = new ArrayList<>();
     }
@@ -34,7 +36,7 @@ public class MyKruskalAlgorithm {
         List<Edge> result = new ArrayList<>();
 
         // 우선순위 큐를 이용해서 간선을 가중치 기준으로 정렬
-        PriorityQueue<Edge> pq = new PriorityQueue<>(edges);
+        PriorityQueue<Edge> pq = new PriorityQueue<>();
 
         // 각 노드의 부모를 초기화
         int[] parent = new int[vertices];
@@ -71,9 +73,12 @@ public class MyKruskalAlgorithm {
         int rootY = find(parent, y); // 노드 y의 대표 노드
         parent[rootX] = rootY;
     }
+}
+
+public class MyKruskalAlgorithm {
 
     public static void main(String[] args) {
-        MyKruskalAlgorithm myKruskalAlgorithm = new MyKruskalAlgorithm(7);
+        KruskalAlgorithm myKruskalAlgorithm = new KruskalAlgorithm(7);
         myKruskalAlgorithm.addEdge(0, 6, 12);
         myKruskalAlgorithm.addEdge(0, 3, 28);
         myKruskalAlgorithm.addEdge(0, 1, 67);

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MyUnionBySize {
     private int[] parent;
     private int[] size;
@@ -8,9 +10,8 @@ public class MyUnionBySize {
         size = new int[n];
 
         // 초기화 : 각 원소가 자신이 속한 집합의 대표를 자신으로 설정
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < n; i++) {
             parent[i] = i;
-            rank[i] = 0;
         }
         // 초기화 : 사이즈를 1로 설정
         Arrays.fill(size, 1);

@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.EmptyStackException;
+
 public class MyStack<E> {
     private Object[] elementData;
     private int capacity = 10;

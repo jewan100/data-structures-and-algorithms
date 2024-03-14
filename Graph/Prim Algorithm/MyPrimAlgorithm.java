@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PriorityQueue;
+
 class Edge implements Comparable<Edge> {
 
     int to; // 간선이 연결되는 대상 노드
@@ -31,11 +35,12 @@ public class MyPrimAlgorithm {
         int minWeight = 0; // 최소 신장 트리의 전체 가중치 합
 
         while (!priorityQueue.isEmpty()) {
-            int u = priorityQueue.poll().to;
+            Edge cur = priorityQueue.poll();
+            int u = cur.to;
 
             // 간선이 연결되는 대상 노드를 MST에 추가
             inMST[u] = true; // 방문처리
-            minWeight += key[u];
+            minWeight += cur.weight;
 
             // 현재 노드에 연결된 미방분 노드들에 대해 최소 가중치 업데이트
             for (Edge neighbor : graph.get(u)) {
@@ -43,8 +48,8 @@ public class MyPrimAlgorithm {
                 int weight = neighbor.weight;
 
                 // 방문, 최소 가중치 체크
-                if (!inMST[v] && weight < key[v]) {
-                    priorityQueue.add(new Edge(v, key[v]));
+                if (!inMST[v]) {
+                    priorityQueue.add(new Edge(v, weight));
                 }
             }
         }

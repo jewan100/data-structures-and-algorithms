@@ -20,6 +20,8 @@ class Tree {
         node.data = data;
         node.left = left;
         node.right = right;
+
+        return node;
     }
 
     // 전위(Pre-Order) 순회

@@ -1,8 +1,12 @@
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Stack;
+
 class Graph {
     int vertices; // 정점의 개수
-    List<List<Integr>> adjancecyList; // 인접 행렬 리스트
+    List<List<Integer>> adjancecyList; // 인접 행렬 리스트
 
-    Graph(int vertices) {
+    public Graph(int vertices) {
         this.vertices = vertices;
         this.adjancecyList = new ArrayList<>();
         
@@ -22,7 +26,7 @@ public class MyStackDFS {
 
     public static void main(String[] args) {
         int vertices = 7;
-        Graph graph = new Graph;
+        Graph graph = new Graph(vertices);
         graph.add(0, 1);
         graph.add(0, 2);
         graph.add(1, 3);
@@ -38,7 +42,7 @@ public class MyStackDFS {
 
         // 모든 정점을 출발 정점으로 하는 DFS
         for(int i = 0; i < vertices; i++){
-            boolean[] visited = new booelan[vertices]; // 방문 체크
+            boolean[] visited = new boolean[vertices]; // 방문 체크
             Stack<Integer> stk = new Stack<>(); // DFS를 위한 Stack
 
             int[] result = new int[vertices]; // 값을 저장하기 위한 배열
@@ -51,7 +55,7 @@ public class MyStackDFS {
 
                 if(visited[cur]) continue;
 
-                visited[cur] true; // 방문 처리
+                visited[cur] = true; // 방문 처리
                 result[depth] = cur; // 현재 깊이에 현재 노드 저장
 
                 // 배열이 완성되었으면 출력
