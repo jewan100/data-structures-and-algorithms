@@ -16,6 +16,7 @@
 - [x] ┃&nbsp;┣ Deque
 - [ ] ┃&nbsp;┗ Circular Queue
 - ┠ __Tree__
+- [x] ┃&nbsp;┣ General Tree
 - [ ] ┃&nbsp;┣ Binary Tree
 - [ ] ┃&nbsp;┣ Binary Search Tree
 - [ ] ┃&nbsp;┣ Complete Binary tree
