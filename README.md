@@ -18,7 +18,7 @@
 - ┣ __Tree__
 - [x] ┃&nbsp;┣ General Tree
 - [ ] ┃&nbsp;┗ Binary Tree
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Tree Traversal
+- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Tree Traversal
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Heap
