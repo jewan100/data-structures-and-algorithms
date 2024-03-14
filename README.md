@@ -30,7 +30,7 @@
 - [ ] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS(Breadth-First Search)
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ DFS(Deep-First Search)
 - [X] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ DFS Using Stack
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ DFS Using Permutation
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ DFS Using Recursion
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Kruskal Algorithm
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Union Find
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Union By Rank

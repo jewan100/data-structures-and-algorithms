@@ -1,4 +1,4 @@
-public class MyPermutationDFS {
+public class MyRecursionDFS {
   // 순열 출력을 위한 DFS
   public static void main(String[] args) {
       int N = 4; // 순열의 길이
