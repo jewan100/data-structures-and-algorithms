@@ -19,15 +19,18 @@
 - [ ] ┃&nbsp;┣ Binary Tree
 - [ ] ┃&nbsp;┣ Binary Search Tree
 - [ ] ┃&nbsp;┣ Complete Binary tree
+- [ ] ┃&nbsp;┃&nbsp;┗ Heap
+- [ ] ┃&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Max Heap
+- [ ] ┃&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Min Heap
 - [ ] ┃&nbsp;┗ Full Binary tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary tree
 - ┗ __Graph__
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ DFS(Deep-First Search)
 - [X] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ DFS Using Stack
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ DFS Using Permutation
-- [ ] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Union Find
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ Union By Rank
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Union By Size
+- [ ] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS(Breadth-First Search)
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Kruskal Algorithm
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Union Find
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Union By Rank
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union By Size
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ Prim Algorithm
