@@ -1,4 +1,6 @@
 // 트리의 각 노드를 나타내기 위한 클래스
+import java.util.ArrayList;
+import java.util.List;
 class Node<T> {
     private T data; // 노드의 데이터
     private List<Node<T>> children; // 자식 노드들의 리스트 -> 차수
@@ -73,6 +75,7 @@ public class MyGeneralTree {
         Node<String> child5 = new Node<>("Child 5");
 
         // 노드 연결 -> 엣지
+        tree.setRoot(rootNode);
         rootNode.addChild(child1);
         rootNode.addChild(child2);
         child1.addChild(child3);
