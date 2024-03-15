@@ -19,7 +19,7 @@ class BinarySearchTree {
         this.root = null;
     }
 
-    // 이진 트리에 새로운 노드를 삽입
+    // 이진 탐색 트리에 새로운 노드를 삽입
     public void insert(int data) {
         root = insertRec(root, data);
     }
@@ -34,6 +34,8 @@ class BinarySearchTree {
         }
 
         // 노드를 삽입할 위치를 찾아서 왼쪽 또는 오른쪽 자식으로 이동
+        // 값이 노드보다 작을 경우 -> 왼쪽
+        // 값이 노드보다 클 경우 -> 오른쪽
         if (data < root.data) {
             root.left = insertRec(root.left, data);
         } else if (data > root.data) {
@@ -44,7 +46,7 @@ class BinarySearchTree {
         return root;
     }
 
-    // 이진트리에 특정 값을 가지는 노드를 삭제
+    // 이진 탐색 트리에 특정 값을 가지는 노드를 삭제
     public void delete(int data) {
         root = deleteRec(root, data);
     }
@@ -106,7 +108,7 @@ public class MyBinarySearchTree {
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
 
-        // 이진 트리에 노드 삽입
+        // 이진 탐색 트리에 노드 삽입
         tree.insert(50);
         tree.insert(30);
         tree.insert(20);
@@ -127,10 +129,10 @@ public class MyBinarySearchTree {
  * 
  */
 
-        System.out.println("이진 트리 중위 순회 결과 :");
+        System.out.println("이진 탐색 트리 중위 순회 결과 :");
         tree.inOrderTraversal(tree.root); // 10 20 30 40 50 60 70 80
 
-        // 이진 트리에서 노드 삭제
+        // 이진 탐색 트리에서 노드 삭제
         tree.delete(20);
 
 /*
