@@ -17,7 +17,7 @@
 - [ ] ┃&nbsp;┗ Circular Queue
 - ┣ __Tree__
 - [x] ┃&nbsp;┣ General Tree
-- [ ] ┃&nbsp;┗ Binary Tree
+- [x] ┃&nbsp;┗ Binary Tree
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Tree Traversal
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary tree
