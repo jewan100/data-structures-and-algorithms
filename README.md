@@ -19,7 +19,7 @@
 - [x] ┃&nbsp;┣ General Tree
 - [x] ┃&nbsp;┗ Binary Tree
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Tree Traversal
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
+- [X] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Heap
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Max Heap
