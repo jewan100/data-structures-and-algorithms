@@ -16,15 +16,15 @@
 - [x] ┃&nbsp;┣ Deque
 - [ ] ┃&nbsp;┗ Circular Queue
 - ┣ __Tree__
-- [x] ┃&nbsp;┣ General Tree
-- [x] ┃&nbsp;┗ Binary Tree
-- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Tree Traversal
-- [X] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary tree
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Heap
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Max Heap
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Min Heap
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Full Binary tree
+- [x] ┃&nbsp;┗ General Tree
+- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Binary Tree
+- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Tree Traversal
+- [X] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary tree
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Heap
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Max Heap
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Min Heap
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Full Binary tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary tree
 - ┗ __Graph__
 - [ ] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS(Breadth-First Search)
