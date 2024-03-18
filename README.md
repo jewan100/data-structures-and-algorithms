@@ -11,9 +11,9 @@
 - [x] ┃&nbsp;┣ Hash Map
 - [x] ┃&nbsp;┗ Hash Set
 - [x] ┣ __Stack__
-- [x] ┣ __Queue__
-- [x] ┃&nbsp;┣ Priority Queue
-- [x] ┃&nbsp;┣ Deque
+- [ ] ┣ __Queue__
+- [ ] ┃&nbsp;┣ Priority Queue
+- [ ] ┃&nbsp;┣ Deque
 - [ ] ┃&nbsp;┗ Circular Queue
 - ┣ __Tree__
 - [x] ┃&nbsp;┗ General Tree
