@@ -113,5 +113,15 @@ public class MyMinHeap {
         minHeap.insert(9);
         minHeap.insert(54);
         minHeap.insert(92);
+        
+        System.out.println("Extract Max: " + minHeap.extractMin()); // 9
+        System.out.println("Extract Max: " + minHeap.extractMin()); // 12
+        System.out.println("Extract Max: " + minHeap.extractMin()); // 23
+        System.out.println("Extract Max: " + minHeap.extractMin()); // 34
+        System.out.println("Extract Max: " + minHeap.extractMin()); // 54
+        System.out.println("Extract Max: " + minHeap.extractMin()); // 64
+        System.out.println("Extract Max: " + minHeap.extractMin()); // 85
+        System.out.println("Extract Max: " + minHeap.extractMin()); // 92
+        System.out.println("Extract Max: " + minHeap.extractMin()); // Heap is Empty
     }
 }

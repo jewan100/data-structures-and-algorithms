@@ -1,7 +1,7 @@
 class MaxHeap{
     private int[] heapArray;
-    private maxSize;
-    private currentSize;
+    private int maxSize;
+    private int currentSize;
 
     public MaxHeap(int maxSize) {
         this.heapArray = new int[maxSize];
@@ -113,5 +113,15 @@ public class MyMaxHeap {
         maxHeap.insert(9);
         maxHeap.insert(54);
         maxHeap.insert(92);
+
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // 92
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // 85
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // 64
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // 54
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // 34
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // 23
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // 12
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // 9
+        System.out.println("Extract Max: " + maxHeap.extractMin()); // Heap is Empty
     }
 }
