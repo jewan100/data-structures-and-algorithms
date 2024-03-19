@@ -36,3 +36,13 @@
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Union By Rank
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union By Size
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ Prim Algorithm
+
+# Sort
+### Sort
+- [ ] ┣ Bubble Sort
+- [ ] ┣ Insertion Sort
+- [ ] ┣ Selection Sort
+- [ ] ┣ Merge Sort
+- [ ] ┣ Quick Sort
+- [ ] ┣ Heap Sort
+- [ ] ┗ Radix Sort
