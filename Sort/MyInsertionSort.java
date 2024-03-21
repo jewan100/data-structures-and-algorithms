@@ -1,7 +1,7 @@
 public class MyInsertionSort {
 
     // 삽입 정렬
-    public static void insertSort(int[] arr) {
+    public static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
             int value = arr[i];
@@ -27,7 +27,7 @@ public class MyInsertionSort {
         printArray(arr); // 57 90 12 33 72 56 4 25 97 39 48 65 80 7 79 68 3 16 1 85 
 
         // 삽입 정렬
-        insertSort(arr);
+        insertionSort(arr);
 
         // 정렬 후
         printArray(arr); // 1 3 4 7 12 16 25 33 39 48 56 57 65 68 72 79 80 85 90 97
