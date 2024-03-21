@@ -41,7 +41,7 @@
 ### Sort
 - [x] ┣ Bubble Sort
 - [x] ┣ Insertion Sort
-- [ ] ┣ Selection Sort
+- [x] ┣ Selection Sort
 - [ ] ┣ Merge Sort
 - [ ] ┣ Quick Sort
 - [ ] ┣ Heap Sort
