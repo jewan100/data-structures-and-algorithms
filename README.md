@@ -36,7 +36,7 @@
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Union By Rank
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union By Size
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Prim Algorithm
-- [ ] &nbsp;&nbsp;&nbsp;&nbsp;┗ Dijkstra Algorithm 
+- [X] &nbsp;&nbsp;&nbsp;&nbsp;┗ Dijkstra Algorithm 
 
 # Sort
 ### Sort
