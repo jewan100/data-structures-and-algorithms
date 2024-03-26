@@ -19,8 +19,8 @@
 - [x] ┃&nbsp;┗ General Tree
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Binary Tree
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Tree Traversal
-- [X] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
-- [X] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary tree
+- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
+- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary tree
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Heap
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Max Heap
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Min Heap
@@ -29,15 +29,15 @@
 - ┗ __Graph__
 - [ ] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS(Breadth-First Search)
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ DFS(Deep-First Search)
-- [X] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ DFS Using Stack
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ DFS Using Stack
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ DFS Using Recursion
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Kruskal Algorithm
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Union Find
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Union By Rank
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union By Size
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Prim Algorithm
-- [X] &nbsp;&nbsp;&nbsp;&nbsp;┣ Dijkstra Algorithm
-- [ ] &nbsp;&nbsp;&nbsp;&nbsp;┗ Floyd Warshall Algorithm 
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Dijkstra Algorithm
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ Floyd Warshall Algorithm 
 
 # Sort
 ### Sort
