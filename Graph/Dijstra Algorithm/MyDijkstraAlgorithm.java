@@ -16,6 +16,7 @@ public class MyDijkstraAlgorithm {
     }
 
     // 다익스트라 수행
+    // 다익스트라 알고리즘은 가중치가 양수일 때만 사용 가능
     public static void dijkstra(List<List<Edge>> graph, int start) {
         int n = graph.size();
         int[] dist = new int[n]; // 시작 노드로부터의 최단 거리를 저장하는 배열
@@ -28,6 +29,9 @@ public class MyDijkstraAlgorithm {
         PriorityQueue<Integer> pq = new PriorityQueue<>((v1, v2) -> dist[v1] - dist[v2]);
         pq.offer(start); // 시작 노드를 우선순위 큐에 추가
 
+        // 선형 탐색의 경우 해당 노드를 방문했는 지 확인하기 위해 따로 방문처리를 위한 배열이 필요하지만,
+        // 힙 방식을 이용하는 경우 우선순위가 관리되기 때문에 방문 처리를 할 필요가 없음.
+
         while (!pq.isEmpty()) {
             int u = pq.poll(); // 우선순위 큐에서 최단 거리를 갖는 정점을 꺼냄
 
@@ -36,9 +40,8 @@ public class MyDijkstraAlgorithm {
                 int v = edge.to;
                 int weight = edge.weight;
 
-                // 시작 노드를 통해 u까지의 거리(dist[u])가 최소값이며,
-                // u를 통해 v까지의 거리(dist[v])보다 더 짧은 경로가 있다면
-                if (dist[u] != Integer.MAX_VALUE && dist[u] + weight < dist[v]) {
+                // u를 통해 v까지의 거리가 dist[v]보다 더 짧은 경로가 있다면
+                if (dist[u] + weight < dist[v]) {
                     dist[v] = dist[u] + weight; // 최단 거리 갱신
                     pq.offer(v); // 우선순위 큐에 v를 추가하여 다음에 처리
                 }
