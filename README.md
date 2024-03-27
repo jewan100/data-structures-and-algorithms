@@ -1,8 +1,10 @@
 # DataStructure
 > Abstract Data Type - Data Structures for Algorithm
 ### DataStructure
+- ┣ __Array__
+- [ ] ┃&nbsp;┗ Kadane's Algorithm
 - ┣ __List__
-- [x] ┃&nbsp;┣ Array List  
+- [x] ┃&nbsp;┣ Array List
 - [x] ┃&nbsp;┗ Linked List
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Singly Linked List
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Doubly Linked List
