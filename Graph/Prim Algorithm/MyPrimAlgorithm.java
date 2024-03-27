@@ -2,24 +2,23 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 
-class Edge implements Comparable<Edge> {
-
-    int to; // 간선이 연결되는 대상 노드
-    int weight; // 가중치
-
-    public Edge(int to, int weight) {
-        this.to = to;
-        this.weight = weight;
-    }
-
-    @Override
-    public int compareTo(Edge other) {
-        return Integer.compare(this.weight, other.weight);
-    }
-}
-
-
 public class MyPrimAlgorithm {
+
+    static class Edge implements Comparable<Edge> {
+
+        int to; // 간선이 연결되는 대상 노드
+        int weight; // 가중치
+    
+        public Edge(int to, int weight) {
+            this.to = to;
+            this.weight = weight;
+        }
+    
+        @Override
+        public int compareTo(Edge other) {
+            return Integer.compare(this.weight, other.weight);
+        }
+    }
 
     // 인자로 인접리스트를 전달
     static int primAlgorithm(List<List<Edge>> graph) {
@@ -42,7 +41,7 @@ public class MyPrimAlgorithm {
             inMST[u] = true; // 방문처리
             minWeight += cur.weight;
 
-            // 현재 노드에 연결된 미방분 노드들에 대해 최소 가중치 업데이트
+            // 현재 노드에 연결된 미 방문 노드들에 대해 최소 가중치 업데이트
             for (Edge neighbor : graph.get(u)) {
                 int v = neighbor.to;
                 int weight = neighbor.weight;
