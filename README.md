@@ -3,6 +3,10 @@
 ### DataStructure
 - ┣ __Array__
 - [x] ┃&nbsp;┗ Kadane's Algorithm
+- ┣ __String__
+- [ ] ┃&nbsp;┗ Palindrome
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Palindrome Check Using Two-Pointer
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Mancher’s Algorithm
 - ┣ __List__
 - [x] ┃&nbsp;┣ Array List
 - [x] ┃&nbsp;┗ Linked List
@@ -33,13 +37,15 @@
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ DFS(Deep-First Search)
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ DFS Using Stack
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ DFS Using Recursion
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Kruskal Algorithm
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Union Find
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Union By Rank
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union By Size
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Prim Algorithm
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Dijkstra Algorithm
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ Floyd Warshall Algorithm 
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ MST(Minimum Spanning Tree)
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ Prim Algorithm
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Kruskal Algorithm
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union Find
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Union By Rank
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union By Size
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ Shortest Path
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Dijkstra Algorithm
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Floyd Warshall Algorithm 
 
 # Sort
 ### Sort
