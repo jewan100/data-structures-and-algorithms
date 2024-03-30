@@ -4,9 +4,10 @@
 - ┣ __Array__
 - [x] ┃&nbsp;┗ Kadane's Algorithm
 - ┣ __String__
-- [x] ┃&nbsp;┗ Palindrome
-- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Palindrome Check Using Two-Pointer
-- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Mancher’s Algorithm
+- [x] ┃&nbsp;┣ Palindrome
+- [x] ┃&nbsp;┃&nbsp;┣ Palindrome Check Using Two-Pointer
+- [x] ┃&nbsp;┃&nbsp;┗ Mancher’s Algorithm
+- [ ] ┃&nbsp;┗ KMP(Knuth-Morris-Pratt) Algorithm
 - ┣ __List__
 - [x] ┃&nbsp;┣ Array List
 - [x] ┃&nbsp;┗ Linked List
