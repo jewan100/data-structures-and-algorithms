@@ -54,7 +54,7 @@
 - [x] ┣ Insertion Sort
 - [x] ┣ Selection Sort
 - [ ] ┣ Merge Sort
-- [ ] ┃&nbsp;┣ Top-Down
+- [x] ┃&nbsp;┣ Top-Down
 - [ ] ┃&nbsp;┗ Bottom-Up
 - [ ] ┣ Quick Sort
 - [ ] ┣ Heap Sort
