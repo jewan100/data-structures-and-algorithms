@@ -53,9 +53,9 @@
 - [x] ┣ Bubble Sort
 - [x] ┣ Insertion Sort
 - [x] ┣ Selection Sort
-- [ ] ┣ Merge Sort
+- [x] ┣ Merge Sort
 - [x] ┃&nbsp;┣ Top-Down
-- [ ] ┃&nbsp;┗ Bottom-Up
+- [x] ┃&nbsp;┗ Bottom-Up
 - [ ] ┣ Quick Sort
 - [ ] ┣ Heap Sort
 - [ ] ┗ Radix Sort
