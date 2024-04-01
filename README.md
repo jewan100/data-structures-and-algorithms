@@ -56,6 +56,6 @@
 - [x] ┣ Merge Sort
 - [x] ┃&nbsp;┣ Top-Down
 - [x] ┃&nbsp;┗ Bottom-Up
-- [ ] ┣ Quick Sort
+- [x] ┣ Quick Sort
 - [ ] ┣ Heap Sort
 - [ ] ┗ Radix Sort
