@@ -57,5 +57,5 @@
 - [x] ┃&nbsp;┣ Top-Down
 - [x] ┃&nbsp;┗ Bottom-Up
 - [x] ┣ Quick Sort
-- [ ] ┣ Heap Sort
+- [x] ┣ Heap Sort
 - [ ] ┗ Radix Sort
