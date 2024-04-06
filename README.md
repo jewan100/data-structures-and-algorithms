@@ -7,7 +7,7 @@
 - [x] ┃&nbsp;┣ Palindrome
 - [x] ┃&nbsp;┃&nbsp;┣ Palindrome Check Using Two-Pointer
 - [x] ┃&nbsp;┃&nbsp;┗ Mancher’s Algorithm
-- [ ] ┃&nbsp;┗ KMP(Knuth-Morris-Pratt) Algorithm
+- [x] ┃&nbsp;┗ KMP(Knuth-Morris-Pratt) Algorithm
 - ┣ __List__
 - [x] ┃&nbsp;┣ Array List
 - [x] ┃&nbsp;┗ Linked List
