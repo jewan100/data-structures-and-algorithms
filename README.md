@@ -2,7 +2,8 @@
 > Abstract Data Type - Data Structures for Algorithm
 ### DataStructure
 - ┣ __Array__
-- [x] ┃&nbsp;┗ Kadane's Algorithm
+- [x] ┃&nbsp;┣ Kadane's Algorithm
+- [ ] ┃&nbsp;┗ LIS(Longest Increasing Subsequence)
 - ┣ __String__
 - [x] ┃&nbsp;┣ Palindrome
 - [x] ┃&nbsp;┃&nbsp;┣ Palindrome Check Using Two-Pointer
