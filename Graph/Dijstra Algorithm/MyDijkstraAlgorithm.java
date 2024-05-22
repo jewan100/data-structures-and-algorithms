@@ -23,6 +23,9 @@ public class MyDijkstraAlgorithm {
         Arrays.fill(dist, Integer.MAX_VALUE); // 모든 거리를 무한대로 초기화
         dist[start] = 0; // 시작 노드의 거리는 0으로 설정
 
+        // 추가) 최적화를 위해선 방문처리를 해줘야함 -> 우선순위 큐를 이용했기 때문에 다시 방문할 필요 없음.
+        boolean[] visited = new boolean[n];
+
         // 선형 탐색으로 구현 시 O(N^2)의 시간 복잡도를 가지지만 힙 구조를 이용하여 시간복잡도를 줄일 수 있음.
         // 우선순위 큐는 이진 힙(Binary Heap)을 기반으로 구현됨
         // 가장 짧은 거리를 가진 정점을 빠르게 찾아낼 수 있고, 삽입과 삭제 연산이 O(logN)의 시간 복잡도를 가짐
@@ -35,13 +38,16 @@ public class MyDijkstraAlgorithm {
         while (!pq.isEmpty()) {
             int u = pq.poll(); // 우선순위 큐에서 최단 거리를 갖는 정점을 꺼냄
 
+            if (visited[u]) continue;
+            visited[u] = true;
+
             // 현재 정점에 연결된 모든 간선에 대해 최단 거리 갱신
             for (Edge edge : graph.get(u)) {
                 int v = edge.to;
                 int weight = edge.weight;
 
                 // u를 통해 v까지의 거리가 dist[v]보다 더 짧은 경로가 있다면
-                if (dist[u] + weight < dist[v]) {
+                if (!visited[v] && dist[u] + weight < dist[v]) {
                     dist[v] = dist[u] + weight; // 최단 거리 갱신
                     pq.offer(v); // 우선순위 큐에 v를 추가하여 다음에 처리
                 }
