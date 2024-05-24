@@ -32,8 +32,12 @@ public class MyBellmanFordAlgorithm {
         }
         dist[s] = 0;
 
+        // 가중치가 바뀌는지 확인하는 플래그
+        boolean updateChk = false;
+
         // 2. V-1 번 반복하여 모든 간선에 대해 거리를 갱신 -> 간선 완화
         for (int i = 0; i < v - 1; i++) {
+            updateChk = false;
             for (int j = 0; j < e; j++) {
                 Edge edge = edges.get(j);
                 int src = edge.src;
@@ -41,20 +45,27 @@ public class MyBellmanFordAlgorithm {
                 int weight = edge.weight;
                 if (dist[src] != Integer.MAX_VALUE && dist[dest] > dist[src] + weight) {
                     dist[dest] = dist[src] + weight;
+                    updateChk = true;
                 }
+            }
+            // V-1번 반복하기 전에 간선 완화가 끝난다면 음의 사이클이 없는 경우로 확정
+            if (!updateChk) {
+                break;
             }
         }
 
         // 3. 1번 더 진행하여 음의 사이클이 있는지 확인
-        for (int j = 0; j < e; j++) {
-            Edge edge = edges.get(j);
-            int src = edge.src;
-            int dest = edge.dest;
-            int weight = edge.weight;
-            
-            // 음의 사이클이 존재한다면 최소값 갱신이 되기에 검출할 수 있다.
-            if (dist[src] != Integer.MAX_VALUE && dist[dest] > dist[src] + weight) {
-                return true;
+        if (updateChk) {
+            for (int j = 0; j < e; j++) {
+                Edge edge = edges.get(j);
+                int src = edge.src;
+                int dest = edge.dest;
+                int weight = edge.weight;
+                
+                // 음의 사이클이 존재한다면 최소값 갱신이 되기에 검출할 수 있다.
+                if (dist[src] != Integer.MAX_VALUE && dist[dest] > dist[src] + weight) {
+                    return true;
+                }
             }
         }
         printArr(dist, v);
