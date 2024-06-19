@@ -3,7 +3,9 @@
 ### DataStructure
 - ┣ __Array__
 - [x] ┃&nbsp;┣ Kadane's Algorithm
-- [ ] ┃&nbsp;┗ LIS(Longest Increasing Subsequence)
+- [x] ┃&nbsp;┗ LIS(Longest Increasing Subsequence)
+- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Basic LIS
+- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ LIS With BinarySearch
 - ┣ __String__
 - [x] ┃&nbsp;┣ Palindrome
 - [x] ┃&nbsp;┃&nbsp;┣ Palindrome Check Using Two-Pointer
