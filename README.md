@@ -61,3 +61,7 @@
 - [x] ┣ Quick Sort
 - [x] ┣ Heap Sort
 - [ ] ┗ Radix Sort
+
+# Search
+### Search
+- [ ] ┗ Binary Search
