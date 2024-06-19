@@ -64,4 +64,4 @@
 
 # Search
 ### Search
-- [ ] ┗ Binary Search
+- [x] ┗ Binary Search
