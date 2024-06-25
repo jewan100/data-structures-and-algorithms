@@ -67,3 +67,6 @@
 # Search
 ### Search
 - [x] ┗ Binary Search
+
+# Math
+### Math
