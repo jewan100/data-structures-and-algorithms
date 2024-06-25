@@ -30,12 +30,12 @@
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Binary Tree
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Tree Traversal
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Binary Search Tree
-- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary tree
+- [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Complete Binary Tree
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Heap
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Max Heap
 - [x] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Min Heap
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Full Binary tree
-- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary tree
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Full Binary Tree
+- [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary Tree
 - ┗ __Graph__
 - [ ] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS(Breadth-First Search)
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ DFS(Deep-First Search)
@@ -66,7 +66,8 @@
 
 # Search
 ### Search
-- [x] ┗ Binary Search
+- [x] ┣ Binary Search
+- [ ] ┗ Quick Select
 
 # Math
 ### Math
