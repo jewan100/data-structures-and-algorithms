@@ -63,3 +63,15 @@ public class MyQuickSelect {
         System.out.println(quickSelect(arr, k)); // k(3)번째로 작은 수는 6
     }
 }
+/*
+ * 퀵 선택을 더욱 효율적으로 만들 수 있는 기법
+ * 1. 파티셔닝
+ *      1-1. Lomuto 파티션
+ *      1-2. Hoare 파티션
+ *      두 파티 션 중에 Hoare 파티션을 사용하는 것이 더 효율 적
+ *      해당 코드는 Lomuto 파티션을 사용
+ * 2. 피벗
+ *      1-1. 중간값 피벗
+ *      1-2. 랜덤 피벗
+ *      1-3. Median of Medians
+ * /
