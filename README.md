@@ -37,7 +37,7 @@
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Full Binary Tree
 - [ ] ┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Perfect Binary Tree
 - ┗ __Graph__
-- [ ] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS(Breadth-First Search)
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ BFS(Breadth-First Search)
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ DFS(Deep-First Search)
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ DFS Using Stack
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ DFS Using Recursion
