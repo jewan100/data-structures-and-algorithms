@@ -71,3 +71,4 @@
 
 # Math
 ### Math
+- [ ] ┗ CCW(Counter Clock Wise)
