@@ -21,7 +21,8 @@ public class MyArrayLISAlgorithm {
             for (int j = 0; j < i; j++) {
                 if (arr[i] > arr[j] && lis[i] < lis[j] + 1)
                     lis[i] = lis[j] + 1; // LIS 길이 증가
-            maxLIS = Math.max(maxLIS, lis[i]);
+                maxLIS = Math.max(maxLIS, lis[i]);
+            }
         }
 
         return maxLIS;
