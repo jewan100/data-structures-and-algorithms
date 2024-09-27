@@ -51,7 +51,7 @@
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ Dijkstra Algorithm
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ Floyd Warshall Algorithm 
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Bellman Ford Algorithm
-- [ ] &nbsp;&nbsp;&nbsp;&nbsp;┗ TSP(Traveling Salesman Problem)
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ TSP(Traveling Salesman Problem)
 
 # Sort
 ### Sort
