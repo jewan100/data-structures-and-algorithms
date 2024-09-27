@@ -47,10 +47,11 @@
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union Find
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Union By Rank
 - [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Union By Size
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;┗ Shortest Path
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Dijkstra Algorithm
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣ Floyd Warshall Algorithm 
-- [x] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗ Bellman Ford Algorithm
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┣ Shortest Path
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ Dijkstra Algorithm
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┣ Floyd Warshall Algorithm 
+- [x] &nbsp;&nbsp;&nbsp;&nbsp;┃&nbsp;┗ Bellman Ford Algorithm
+- [ ] &nbsp;&nbsp;&nbsp;&nbsp;┗ TSP(Traveling Salesman Problem)
 
 # Sort
 ### Sort
