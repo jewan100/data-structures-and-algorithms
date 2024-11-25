@@ -74,7 +74,7 @@
 
 # Math
 ### Math
-- [x] ┣ Euclidean algorithm
+- [x] ┣ Euclidean Algorithm
 - [x] ┣ Sieve of Eratosthenes
 - [x] ┃&nbsp;┗ Prime Factorization
 - [ ] ┗ CCW(Counter Clock Wise)
