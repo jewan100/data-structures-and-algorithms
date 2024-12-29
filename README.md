@@ -21,7 +21,7 @@
 - [x] ┃&nbsp;┣ Hash Map
 - [x] ┃&nbsp;┗ Hash Set
 - [x] ┣ __Stack__
-- [ ] ┣ __Queue__
+- [x] ┣ __Queue__
 - [ ] ┃&nbsp;┣ Priority Queue
 - [ ] ┃&nbsp;┣ Deque
 - [ ] ┃&nbsp;┗ Circular Queue
