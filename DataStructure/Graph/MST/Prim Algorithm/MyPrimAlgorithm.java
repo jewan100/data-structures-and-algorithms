@@ -32,13 +32,17 @@ public class MyPrimAlgorithm {
         priorityQueue.add(new Edge(0, 0));
 
         int minWeight = 0; // 최소 신장 트리의 전체 가중치 합
-
+        int cnt = 0; // 최소 신장 트리의 간선 수는 N - 1개만 있으면 됨
+        
         while (!priorityQueue.isEmpty()) {
             Edge cur = priorityQueue.poll();
             int u = cur.to;
-
+            // 방문한 노드라면 스킵
+            if (inMST[u])
+                continue;
             // 간선이 연결되는 대상 노드를 MST에 추가
             inMST[u] = true; // 방문처리
+            cnt++; // 간선 수 증가
             minWeight += cur.weight;
 
             // 현재 노드에 연결된 미 방문 노드들에 대해 최소 가중치 업데이트
