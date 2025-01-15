@@ -34,7 +34,7 @@ public class MyPrimAlgorithm {
         int minWeight = 0; // 최소 신장 트리의 전체 가중치 합
         int cnt = 0; // 최소 신장 트리의 간선 수는 N - 1개만 있으면 됨
         
-        while (!priorityQueue.isEmpty()) {
+        while (cnt < vertices) {
             Edge cur = priorityQueue.poll();
             int u = cur.to;
             // 방문한 노드라면 스킵
