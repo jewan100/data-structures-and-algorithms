@@ -40,7 +40,7 @@
 - [x] ┃&ensp;&ensp;&ensp;┃&ensp;&ensp;┃&ensp;&ensp;&ensp;┗ Min Heap
 - [ ] ┃&ensp;&ensp;&ensp;┃&ensp;&ensp;┣ Full Binary Tree
 - [ ] ┃&ensp;&ensp;&ensp;┃&ensp;&ensp;┗ Perfect Binary Tree
-- [ ] ┃&ensp;&ensp;&ensp;┗ Trie
+- [x] ┃&ensp;&ensp;&ensp;┗ Trie
 - ┗ **Graph**
 - [x] &ensp;&ensp;┣ BFS(Breadth-First Search)
 - [x] &ensp;&ensp;┣ DFS(Deep-First Search)
