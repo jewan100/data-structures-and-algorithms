@@ -41,7 +41,7 @@
 - [ ] ┃&ensp;&ensp;&ensp;┃&ensp;&ensp;┣ Full Binary Tree
 - [ ] ┃&ensp;&ensp;&ensp;┃&ensp;&ensp;┗ Perfect Binary Tree
 - [x] ┃&ensp;&ensp;&ensp;┣ Trie
-- [ ] ┃&ensp;&ensp;&ensp;┗ Segment Tree
+- [x] ┃&ensp;&ensp;&ensp;┗ Segment Tree
 - ┗ **Graph**
 - [x] &ensp;&ensp;┣ BFS(Breadth-First Search)
 - [x] &ensp;&ensp;┣ DFS(Deep-First Search)
