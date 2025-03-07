@@ -89,7 +89,7 @@ public class MyTrie {
         System.out.println("startsWith(\"app\") : " + trie.startsWith("app"));   // true
         System.out.println("startsWith(\"apl\") : " + trie.startsWith("apl"));   // false
 
-        System.out.println("countWordsWithPrefix(\"app\") : " + trie.countWordsWithPrefix("app")); // 3 (apple, app, application, apply)
+        System.out.println("countWordsWithPrefix(\"app\") : " + trie.countWordsWithPrefix("app")); // 4 (apple, app, application, apply)
         System.out.println("countWordsWithPrefix(\"ap\") : " + trie.countWordsWithPrefix("ap"));   // 5 (모든 단어)
         System.out.println("countWordsWithPrefix(\"xyz\") : " + trie.countWordsWithPrefix("xyz")); // 0 (해당 접두사 없음)
     }
