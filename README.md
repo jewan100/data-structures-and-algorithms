@@ -25,9 +25,9 @@
 - [x] ┃&ensp;┗ Hash Set
 - [x] ┣ **Stack**
 - [x] ┣ **Queue**
-- [ ] ┃&ensp;┣ Priority Queue
-- [ ] ┃&ensp;┣ Deque
-- [ ] ┃&ensp;┗ Circular Queue
+- [x] ┃&ensp;┣ Priority Queue
+- [x] ┃&ensp;┣ Deque
+- [x] ┃&ensp;┗ Circular Queue
 - ┣ **Tree**
 - [x] ┃&ensp;┗ General Tree
 - [x] ┃&ensp;&ensp;&ensp;┣ LCA(Lowest Common Ancestor)
