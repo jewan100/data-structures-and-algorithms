@@ -79,7 +79,7 @@
 ### Search
 
 - [x] ┣ Binary Search
-- [ ] ┗ Quick Select
+- [x] ┗ Quick Select
 
 # Math
 
