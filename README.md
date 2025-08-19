@@ -58,7 +58,7 @@
 - [x] &ensp;&ensp;┃&ensp;┣ Floyd Warshall Algorithm
 - [x] &ensp;&ensp;┃&ensp;┃&ensp;&ensp;┗ Floyd Warshall Tracking
 - [x] &ensp;&ensp;┃&ensp;┗ Bellman Ford Algorithm
-- [x] &ensp;&ensp;┗ TSP(Traveling Salesman Problem)
+- [ ] &ensp;&ensp;┗ TSP(Traveling Salesman Problem)
 
 # Sort
 
