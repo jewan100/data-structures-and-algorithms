@@ -87,5 +87,5 @@
 
 - [x] ┣ Euclidean Algorithm
 - [x] ┣ Sieve of Eratosthenes
-- [x] ┃&ensp;┗ Prime Factorization
+- [ ] ┃&ensp;┗ Prime Factorization
 - [ ] ┗ CCW(Counter Clock Wise)
