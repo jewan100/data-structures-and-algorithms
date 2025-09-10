@@ -1,4 +1,4 @@
-# DataStructure
+ļ# DataStructure
 
 > Abstract Data Type - Data Structures for Algorithm
 
@@ -86,6 +86,6 @@
 ### Math
 
 - [x] ┣ Euclidean Algorithm
-- [ ] ┣ Sieve of Eratosthenes
+- [x] ┣ Sieve of Eratosthenes
 - [ ] ┃&ensp;┗ Prime Factorization
 - [ ] ┗ CCW(Counter Clock Wise)
