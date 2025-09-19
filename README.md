@@ -18,7 +18,7 @@
 - [x] ┃&ensp;┣ Array List
 - [x] ┃&ensp;┗ Linked List
 - [x] ┃&ensp;&ensp;&ensp;┣ Singly Linked List
-- [ ] ┃&ensp;&ensp;&ensp;┣ Doubly Linked List
+- [x] ┃&ensp;&ensp;&ensp;┣ Doubly Linked List
 - [ ] ┃&ensp;&ensp;&ensp;┗ Circular Linked List
 - ┣ **Hash**
 - [x] ┃&ensp;┣ Hash Map
