@@ -55,6 +55,7 @@
 - [x] &ensp;&ensp;┃&ensp;&ensp;&ensp;&ensp;&ensp;┗ Union By Size
 - [x] &ensp;&ensp;┣ Shortest Path
 - [x] &ensp;&ensp;┃&ensp;┣ Dijkstra Algorithm
+- [x] &ensp;&ensp;┃&ensp;┃&ensp;&ensp;┗ kth Shortest Path
 - [x] &ensp;&ensp;┃&ensp;┣ Floyd Warshall Algorithm
 - [x] &ensp;&ensp;┃&ensp;┃&ensp;&ensp;┗ Floyd Warshall Tracking
 - [x] &ensp;&ensp;┃&ensp;┗ Bellman Ford Algorithm
