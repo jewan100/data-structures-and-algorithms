@@ -14,7 +14,7 @@ public class MyPalindromeCheck {
         while (l < r) {
             
             // 전달 받은 문자열이 팰린드롬이 아닐 경우
-            if (str.charAt(l) != str.charAt(right)) {
+            if (str.charAt(l) != str.charAt(r)) {
                 return false;
             }
 
