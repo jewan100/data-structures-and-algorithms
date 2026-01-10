@@ -21,8 +21,8 @@
 - [x] ┃&ensp;&ensp;&ensp;┣ Doubly Linked List
 - [ ] ┃&ensp;&ensp;&ensp;┗ Circular Linked List
 - ┣ **Hash**
-- [x] ┃&ensp;┣ Hash Map
-- [x] ┃&ensp;┗ Hash Set
+- [ ] ┃&ensp;┣ Hash Map
+- [ ] ┃&ensp;┗ Hash Set
 - [x] ┣ **Stack**
 - [x] ┣ **Queue**
 - [x] ┃&ensp;┣ Priority Queue
