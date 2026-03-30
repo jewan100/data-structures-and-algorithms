@@ -1,4 +1,4 @@
-# DataStructure
+7# DataStructure
 
 > Abstract Data Type - Data Structures for Algorithm
 
@@ -91,3 +91,4 @@
 - [x] ┣ Sieve of Eratosthenes
 - [x] ┃&ensp;┗ Prime Factorization
 - [ ] ┗ CCW(Counter Clock Wise)
+
