@@ -1,4 +1,4 @@
-7# DataStructure
+# DataStructure
 
 > Abstract Data Type - Data Structures for Algorithm
 
